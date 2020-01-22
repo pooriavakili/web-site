@@ -23,8 +23,6 @@ width: 100%;
     color: white;
     margin-bottom: 1em;
     padding: 0 14px;
-
-
 }
 .LI{
  margin-top: 2em;
@@ -33,10 +31,53 @@ width: 100%;
 .Links:hover{
     color:red
 }
+.Center{
+    display: flex;
+    justify-content: center;
+}
+.LIOne{
+display: inline-block;
+    margin-left: 15em;
+    margin-top: 2em;
+
+}
+.LinksOne{
+    color: #000;
+    text-decoration: none;
+
+
+
+}
+.LinksOne:hover{
+    color: red;
+}
+.Img{
+
+    width: 100px;
+    height: 100px;
+}
+.DivMaten{
+    display: inline-block;
+}
+.Footer{
+    background-color: #000;
+    padding: 0;
+    margin:0;
+    list-style: none;
+
+}
+.FooterLink{
+display: inline-block;
+
+}
 @media (max-width: 700px) {
     .Links{
         font-size: .7em;
         padding: 0;
         display: inline-block;
+    }
+    .LIOne{
+        display: flex;
+        justify-content: flex-start;
     }
 }
