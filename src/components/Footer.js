@@ -9,16 +9,16 @@ export default function Footer() {
 
             <ul className='Footer'>
                 <li>
-                    <Link  className='FooterLink'>Home</Link>
+                    <Link  className='FooterLink'></Link>
                 </li>
                 <li>
-                    <Link  className='FooterLink'>SignIn</Link>
+                    <Link  className='FooterLink'></Link>
                 </li>
                 <li>
-                    <Link  className='FooterLink'>Register</Link>
+                    <Link  className='FooterLink'></Link>
                 </li>
                 <li>
-                    <Link  className='FooterLink'>search</Link>
+                    <Link  className='FooterLink'></Link>
                 </li>
             </ul>
 
