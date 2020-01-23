@@ -2,7 +2,9 @@
     padding: 0;
     margin: 0;
 }
-
+.Zarb{
+    display: none;
+}
 .Ul{
     display: flex;
     flex-direction: row;
@@ -10,7 +12,6 @@
 list-style-type: none;
 width: 100%;
     justify-content: flex-start;
-
 }
 .Dot{
     color: white;
@@ -39,7 +40,6 @@ width: 100%;
 display: inline-block;
     margin-left: 15em;
     margin-top: 2em;
-
 }
 .LinksOne{
     color: #000;
@@ -53,11 +53,35 @@ display: inline-block;
 }
 .Img{
 
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+
+
+}
+.FooterStyle{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.Fragment{
+    overflow-y: hidden;
 }
 .DivMaten{
-    display: inline-block;
+ display: flex;
+margin-top: 2em;
+    flex-direction: row;
+}
+.GridOne{
+    padding: 0 4em;
+
+}
+.ImgOne{
+  padding-left:  2em;
+}
+.Grid{
+    font-size: 1.3em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(1em,1fr));
 }
 .Footer{
     background-color: #000;
@@ -67,17 +91,73 @@ display: inline-block;
 
 }
 .FooterLink{
-display: inline-block;
+display: flex;
+    justify-content: center;
+    flex-direction: row;
 
+
+}
+.StyleLink{
+    color: green;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 1em;
+}
+.CopyRight{
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+}
+.CopyRightStyle{
+    color:white;
+    font-size: 1.3em;
+}
+.Menu{
+    display: none;
 }
 @media (max-width: 700px) {
     .Links{
-        font-size: .7em;
-        padding: 0;
-        display: inline-block;
+float: left;
+
+    }
+    .Dot{
+       display: none;
+    }
+    .Ul{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(36,41,44);
+        height: 100%;
+        z-index: 7;
+        padding-top: 3em;
+
+
     }
     .LIOne{
         display: flex;
         justify-content: flex-start;
+    }
+    .DivMaten{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .Menu{
+        display: block;
+        color: white;
+        margin-left: -20px;
+        width: 25px;
+        height: 25px;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+    .Dot{
+        margin-left: 20px;
+    }
+    .Zarb{
+        display: block;
+        width: 20px;
+        height: 20px;
     }
 }
